@@ -4,4 +4,4 @@
 
 Hi Shyrel! :)
 
-Scsn the QR be :)
+Scan the QR be :)
