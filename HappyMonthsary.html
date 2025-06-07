@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Monthsary!</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #ff6b6b;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .cat {
+            font-size: 5em;
+            margin: 20px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .cat:hover {
+            transform: scale(1.2);
+        }
+
+        .message {
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
+            margin: 30px 0;
+        }
+
+        .love-btn {
+            background: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border-radius: 25px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .love-btn:hover {
+            background: #ff5252;
+        }
+
+        .hearts {
+            font-size: 2em;
+            color: #ff6b6b;
+            margin: 20px 0;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐱 Happy Monthsary! 🐱</h1>
+        
+        <div class="cat" onclick="petCat()">🐱</div>
+        
+        <div class="message">
+            <p>You're purr-fect and I love you more every day! 💕</p>
+            <p>Thanks for being the most amazing partner ever!</p>
+        </div>
+        
+        <button class="love-btn" onclick="showHearts()">Send Love</button>
+        <button class="love-btn" onclick="showSurprise()">Surprise</button>
+        
+        <div id="hearts" class="hearts hidden">
+            💕 ❤️ 💖 💗 💕 ❤️ 💖 💗
+        </div>
+        
+        <div id="surprise" class="hidden">
+            <p style="color: #ff6b6b; font-weight: bold; font-size: 1.3em;">
+                I'm so lucky to have you in my life! 🌟
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function petCat() {
+            alert("Meow! The cat loves you! 🐾");
+        }
+
+        function showHearts() {
+            const hearts = document.getElementById('hearts');
+            hearts.classList.toggle('hidden');
+        }
+
+        function showSurprise() {
+            const surprise = document.getElementById('surprise');
+            surprise.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
