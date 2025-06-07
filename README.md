@@ -1,5 +1,5 @@
 # 06.07.25
 
-![image](https://github.com/user-attachments/assets/36b7ba15-dcc7-4a01-84f3-5dc9f19fae59)
+![image](https://github.com/user-attachments/assets/08e0acf3-84eb-4f12-8c01-7ebc7debb731)
 
 Hi Shyrel! :)
